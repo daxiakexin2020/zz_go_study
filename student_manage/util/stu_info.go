@@ -17,8 +17,23 @@ type StudentManage struct {
 	manage map[int64]StudentInfo
 }
 
-//添加学生
-func (s StudentManage)addStudent()  {
+
+//查看学生信息
+func (s StudentManage) lookStudentInfo(){
 
 }
 
+//添加学生信息
+func (s StudentManage) addStudentInfo()  {
+
+}
+
+//删除学生信息
+func (s StudentManage)  deleteStudentInfo() {
+
+}
+
+//编辑学生信息
+func (s StudentManage) editStudentInfo(){
+
+}
